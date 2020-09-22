@@ -1,5 +1,5 @@
 {
-  "name": "Punta | Launching Soon",
+  "name": "punta-landing",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,7 +11,8 @@
     "autoprefixer": "<10.0.0",
     "core-js": "^3.6.5",
     "tailwindcss": "^1.8.10",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-head": "^2.2.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

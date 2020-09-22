@@ -44,48 +44,7 @@
         </div>
       </div>
     </main>
-    <footer>
-      <div id="footer-wrapper" class="flex flex-col md:px-20 lg:px-20 px-10 py-10">
-        <div class="w-full h-full flex flex-row justify-between">
-          <div class="flex flex-row items-center gap-3 flex-wrap p-2">
-            <a href="https://forms.gle/isVYj2RKhy3LVEQF9"
-            class="px-3 py-2 border-2 border-white
-            bg-white text-footer rounded-lg font-medium shadow-md">
-              Become an Ambassador
-            </a>
-            <a href="https://forms.gle/AB8AEHY3CAfNMZ336"
-            class="px-3 py-2 border-2 border-white
-            text-white rounded-lg font-medium shadow-md">
-              Sign up for Beta
-            </a>
-          </div>
-          <div class="flex flex-row justify-center items-center gap-3 flex-wrap p-2">
-            <a href="#" class="rounded-full border-2 border-white h-10 w-10">
-              &nbsp;
-            </a>
-            <a href="#" class="rounded-full border-2 border-white h-10 w-10">
-              &nbsp;
-            </a>
-            <a href="#" class="rounded-full border-2 border-white h-10 w-10">
-              &nbsp;
-            </a>
-          </div>
-        </div>
-        <div class="flex flex-row justify-between text-gray-500 pt-5 flex-wrap gap-2">
-          <p class="text-xs max-w-sm">
-            &#169; Punta Online Solutions 2020
-          </p>
-          <div class="flex flex-row gap-2">
-            <a class="text-xs">
-              Privacy Policy
-            </a>
-            <a class="text-xs">
-              Terms and Conditions
-            </a>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <Footerbar />
     <img id="blue-artifact" class="absolute hidden lg:block"
     :src="require('@/assets/svg/header-artifact-blue.svg')" />
     <img id="pink-artifact" class="absolute hidden lg:block"
@@ -95,11 +54,30 @@
 
 <script>
 import Navbar from '@/components/Navbar.vue';
+import Footerbar from '@/components/Footerbar.vue';
 
 export default {
   name: 'App',
   components: {
     Navbar,
+    Footerbar,
+  },
+  head: {
+    title() {
+      return {
+        inner: 'Punta',
+        separator: '|',
+        complement: 'Beta Launching Soon',
+      };
+    },
+    link: [
+      {
+        rel: 'icon',
+        // eslint-disable-next-line global-require
+        href: require('@/assets/img/punta-icon.png'),
+        type: 'image/png',
+      },
+    ],
   },
 };
 </script>
