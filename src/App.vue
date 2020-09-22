@@ -11,12 +11,12 @@
           :src="require('@/assets/svg/header-main.svg')" />
         </div>
         <div class="flex flex-row justify-center items-center gap-3 flex-wrap p-2">
-          <a href="#"
+          <a href="https://forms.gle/isVYj2RKhy3LVEQF9"
           class="px-3 py-2 border-2 border-blue-800
           bg-blue-800 text-white rounded-lg font-medium shadow-md">
             Become an Ambassador
           </a>
-          <a href="#"
+          <a href="https://forms.gle/AB8AEHY3CAfNMZ336"
           class="px-3 py-2 border-2 border-blue-800
           text-blue-800 rounded-lg font-medium shadow-md">
             Sign up for Beta
@@ -48,12 +48,12 @@
       <div id="footer-wrapper" class="flex flex-col md:px-20 lg:px-20 px-10 py-10">
         <div class="w-full h-full flex flex-row justify-between">
           <div class="flex flex-row items-center gap-3 flex-wrap p-2">
-            <a href="#"
+            <a href="https://forms.gle/isVYj2RKhy3LVEQF9"
             class="px-3 py-2 border-2 border-white
             bg-white text-footer rounded-lg font-medium shadow-md">
               Become an Ambassador
             </a>
-            <a href="#"
+            <a href="https://forms.gle/AB8AEHY3CAfNMZ336"
             class="px-3 py-2 border-2 border-white
             text-white rounded-lg font-medium shadow-md">
               Sign up for Beta
@@ -109,7 +109,6 @@ html, body {
   min-height: 100vh;
   height: 100vh;
 }
-
 .bg-punta {
   background: #A34C9D;
 }
@@ -132,11 +131,5 @@ html, body {
 }
 .text-footer {
   color: #3F3D56;
-}
-.video-container {
-  position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;
-}
-.video-container iframe, .video-container object, .video-container embed {
-   position: absolute; top: 0; left: 0; width: 100%; height: 100%;
 }
 </style>
