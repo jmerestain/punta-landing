@@ -24,9 +24,9 @@
         </div>
       </div>
       <div id="section-2" class="bg-gray-200 flex flex-col pt-10 pb-10">
-        <div class="mx-auto flex flex-row flex-wrap justify-center gap-8 p-4 items-center">
-          <div class="bg-pink-200">
-            <iframe class="rounded-md shadow-md" width="372" height="210" src="https://www.youtube.com/embed/KFSfu66tlEQ?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="flex flex-row flex-wrap justify-center gap-8 p-4 items-center">
+          <div class="bg-pink-200 rounded-md shadow-md">
+            <iframe class="rounded-md shadow-md" height="210px" width="372px" src="https://www.youtube.com/embed/KFSfu66tlEQ?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="max-w-sm mx-2">
             <p class="text-2xl font-bold text-blue-900">
@@ -45,6 +45,46 @@
       </div>
     </main>
     <footer>
+      <div id="footer-wrapper" class="flex flex-col md:px-20 lg:px-20 px-10 py-10">
+        <div class="w-full h-full flex flex-row justify-between">
+          <div class="flex flex-row items-center gap-3 flex-wrap p-2">
+            <a href="#"
+            class="px-3 py-2 border-2 border-white
+            bg-white text-footer rounded-lg font-medium shadow-md">
+              Become an Ambassador
+            </a>
+            <a href="#"
+            class="px-3 py-2 border-2 border-white
+            text-white rounded-lg font-medium shadow-md">
+              Sign up for Beta
+            </a>
+          </div>
+          <div class="flex flex-row justify-center items-center gap-3 flex-wrap p-2">
+            <a href="#" class="rounded-full border-2 border-white h-10 w-10">
+              &nbsp;
+            </a>
+            <a href="#" class="rounded-full border-2 border-white h-10 w-10">
+              &nbsp;
+            </a>
+            <a href="#" class="rounded-full border-2 border-white h-10 w-10">
+              &nbsp;
+            </a>
+          </div>
+        </div>
+        <div class="flex flex-row justify-between text-gray-500 pt-5 flex-wrap gap-2">
+          <p class="text-xs max-w-sm">
+            &#169; Punta Online Solutions 2020
+          </p>
+          <div class="flex flex-row gap-2">
+            <a class="text-xs">
+              Privacy Policy
+            </a>
+            <a class="text-xs">
+              Terms and Conditions
+            </a>
+          </div>
+        </div>
+      </div>
     </footer>
     <img id="blue-artifact" class="absolute hidden lg:block"
     :src="require('@/assets/svg/header-artifact-blue.svg')" />
@@ -86,5 +126,17 @@ html, body {
 #pink-artifact {
   left: 0.5rem;
   top: 8rem;
+}
+#footer-wrapper {
+  background: #3F3D56;
+}
+.text-footer {
+  color: #3F3D56;
+}
+.video-container {
+  position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;
+}
+.video-container iframe, .video-container object, .video-container embed {
+   position: absolute; top: 0; left: 0; width: 100%; height: 100%;
 }
 </style>
