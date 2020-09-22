@@ -11,12 +11,12 @@
           :src="require('@/assets/svg/header-main.svg')" />
         </div>
         <div class="flex flex-row justify-center items-center gap-3 flex-wrap p-2">
-          <a href="https://forms.gle/isVYj2RKhy3LVEQF9"
+          <a href="https://forms.gle/isVYj2RKhy3LVEQF9" target="_blank"
           class="px-3 py-2 border-2 border-blue-800
           bg-blue-800 text-white rounded-lg font-medium shadow-md">
             Become an Ambassador
           </a>
-          <a href="https://forms.gle/AB8AEHY3CAfNMZ336"
+          <a href="https://forms.gle/AB8AEHY3CAfNMZ336" target="_blank"
           class="px-3 py-2 border-2 border-blue-800
           text-blue-800 rounded-lg font-medium shadow-md">
             Sign up for Beta
@@ -29,9 +29,9 @@
             <iframe class="rounded-md shadow-md" height="210px" width="372px" src="https://www.youtube.com/embed/KFSfu66tlEQ?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="max-w-sm mx-2">
-            <p class="text-2xl font-bold text-blue-900">
+            <h1 class="text-2xl font-bold text-blue-900">
                 What is Punta?
-            </p>
+            </h1>
             <p class="mt-3 text-justify">
               Punta is an online service platform that allows you to
               innovate, connect, and avail of services easily.
@@ -41,6 +41,73 @@
               people can avail of a variety of services to fulfill their needs, online or at-home.
             </p>
           </div>
+        </div>
+      </div>
+      <div id="section-3" class="bg-white flex flex-col py-10 px-5">
+        <div class="flex flex-row flex-wrap justify-center gap-5 items-start">
+          <div class="flex flex-col justify-center max-w-sm">
+            <img :src="require('@/assets/svg/second-artifact-first.svg')" />
+            <h3 class="text-xl font-bold text-gray-800">
+              Become a Service Provider
+            </h3>
+            <p class="font-light text-justify">Provide services of all kinds from graphic
+            design and web development to home improvement and marketing.</p>
+          </div>
+          <div class="flex flex-col justify-center max-w-sm">
+            <img :src="require('@/assets/svg/second-artifact-second.svg')" />
+            <h3 class="text-xl font-bold text-gray-800">
+              Become a Service Provider
+            </h3>
+            <p class="font-light text-justify">Help our community grow by sharing Punta to
+            every Filipino and by giving feedback on Punta’s latest technology!</p>
+          </div>
+        </div>
+      </div>
+      <div id="section-4" class="bg-punta text-white flex flex-col py-10 space-y-8">
+        <div class="flex flex-col gap-2 mx-auto sm:text-center md:text-left pb-4">
+          <h2 class="text-3xl font-bold text-center md:text-left tracking-wide">
+            What's in it for me?
+          </h2>
+          <p class="text-xl text-center md:text-left tracking-wide">
+            Here are some opportunties we’ll give to our service providers and ambassadors.
+          </p>
+        </div>
+        <div class="flex flex-row flex-wrap gap-10 justify-center p-5 items-start pb-6">
+          <div class="flex flex-col max-w-md flex-grow">
+            <img :src="require('@/assets/svg/third-artifact-1.svg')" />
+            <h3 class="text-center font-medium text-2xl">
+              Grow Your Business
+            </h3>
+            <p class="font-light text-center text-lg">
+              Gain exposure, earn, and build your portfolio for free!
+            </p>
+          </div>
+          <div class="flex flex-col max-w-md flex-grow">
+            <img :src="require('@/assets/svg/third-artifact-2.svg')" />
+            <h3 class="text-center font-medium text-2xl">
+              Access Our Platform
+            </h3>
+            <p class="font-light text-center text-lg">
+              Sell your services and engage with customers easily.
+            </p>
+          </div>
+          <div class="flex flex-col max-w-md flex-grow">
+            <img :src="require('@/assets/svg/third-artifact-3.svg')" />
+            <h3 class="text-center font-medium text-2xl">
+              A Discount on Us <small>*</small>
+            </h3>
+            <p class="font-light text-center text-lg">
+              As a thank you from us, you have a 10% discount or P50 off on your first purchase! **
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-col mx-10 text-pink-200 p-4 gap-1">
+          <p class="text-sm text-center md:text-left">
+            * Applicable for the first 50 service providers and first 50 ambassadors only!
+          </p>
+          <p class="text-sm text-center md:text-left">
+            ** 10% discount for purchases below P500, and P50 off for services above P500.
+          </p>
         </div>
       </div>
     </main>
