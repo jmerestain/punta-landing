@@ -48,7 +48,7 @@
           <div class="flex flex-col justify-center max-w-sm">
             <img :src="require('@/assets/svg/second-artifact-first.svg')" />
             <h3 class="text-xl font-bold text-gray-800">
-              Become a Service Provider
+              Become a service provider
             </h3>
             <p class="font-light text-justify">Provide services of all kinds from graphic
             design and web development to home improvement and marketing.</p>
@@ -56,7 +56,7 @@
           <div class="flex flex-col justify-center max-w-sm">
             <img :src="require('@/assets/svg/second-artifact-second.svg')" />
             <h3 class="text-xl font-bold text-gray-800">
-              Become a Service Provider
+              Be a Punta ambassador
             </h3>
             <p class="font-light text-justify">Help our community grow by sharing Punta to
             every Filipino and by giving feedback on Punta’s latest technology!</p>
