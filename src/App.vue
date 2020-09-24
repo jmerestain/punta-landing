@@ -28,7 +28,7 @@
         <div class="flex flex-row flex-wrap mx-auto justify-between
         space-y-4 p-4 items-center container max-w-screen-lg space-y-6 md:space-y-6 lg:space-y-0">
           <div class="bg-pink-200 rounded-md shadow-md mx-auto lg:mx-0">
-            <iframe class="rounded-md shadow-md" height="210px" width="355px" src="https://www.youtube.com/embed/KFSfu66tlEQ?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="rounded-md shadow-md" height="200px" width="355px" src="https://www.youtube.com/embed/KFSfu66tlEQ?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="max-w-xl mx-auto lg:mx-2">
             <h1 class="text-2xl font-bold text-blue-900">

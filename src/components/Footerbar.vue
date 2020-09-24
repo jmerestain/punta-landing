@@ -34,12 +34,12 @@
             </a>
           </div>
         </div>
-        <div class="flex flex-row justify-center
-        md:justify-between text-gray-500 pt-5 flex-wrap gap-2">
-          <p class="text-xs max-w-sm">
+        <div class="flex lg:flex-row mx-auto lg:mx-0 flex-col lg:space-y-0
+        lg:justify-between text-gray-500 pt-5 flex-wrap space-y-2">
+          <p class="text-xs max-w-sm text-center lg:text-left">
             &#169; Punta Online Solutions 2020
           </p>
-          <div class="flex flex-row gap-5">
+          <div class="flex flex-row space-x-2 mx-auto lg:mx-0 text-center lg:text-left">
             <a class="text-xs">
               Privacy Policy
             </a>
