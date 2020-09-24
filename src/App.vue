@@ -10,7 +10,8 @@
           <img class="mx-auto select-none sm:max-w-md md:max-w-xl lg:max-w-2xl"
           :src="require('@/assets/svg/header-main.svg')" />
         </div>
-        <div class="flex flex-row justify-center items-baseline space-x-4 space-y-2 flex-wrap p-2">
+        <div class="flex flex-row justify-center items-baseline
+        lg:space-x-3 space-y-2 flex-wrap p-2 space-x-0">
           <a href="https://forms.gle/isVYj2RKhy3LVEQF9" target="_blank"
           class="px-3 py-2 border-2 border-blue-800
           text-blue-800 rounded-lg font-bold tracking-wider shadow-md">
@@ -113,7 +114,7 @@
                 </p>
               </div>
             </div>
-            <div class="flex flex-col text-pink-200 container mx-auto px-4 md:px-0 italic">
+            <div class="flex flex-col text-pink-200 container mx-auto px-4 md:px-0 italic mt-5">
               <p class="text-sm text-center md:text-left">
                 * Applicable for the first 50 service providers and first 50 ambassadors only!
               </p>
