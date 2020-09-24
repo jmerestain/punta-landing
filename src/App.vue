@@ -106,7 +106,7 @@
               <div class="flex flex-col w-64">
                 <img class="h-16 w-16 mb-4" :src="require('@/assets/svg/third-artifact-3.svg')" />
                 <h3 class="font-semibold text-xl tracking-wide">
-                  A discount from us <small>*</small>
+                  Get a discount from us <small>*</small>
                 </h3>
                 <p class="font-light text-md text-justify">
                   As a thank you from us, you have a 10% discount
@@ -114,7 +114,7 @@
                 </p>
               </div>
             </div>
-            <div class="flex flex-col text-pink-200 container mx-auto px-4 md:px-0 italic mt-5">
+            <div class="flex flex-col text-asterisk container mx-auto px-4 md:px-0 italic mt-5">
               <p class="text-sm text-center md:text-left">
                 * Applicable for the first 50 service providers and first 50 ambassadors only!
               </p>
@@ -191,6 +191,9 @@ html, body {
 }
 .text-punta {
   color: #A34C9D;
+}
+.text-asterisk {
+  color: #EACBE0;
 }
 #blue-artifact {
   right: 1rem;

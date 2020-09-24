@@ -39,7 +39,7 @@
           <p class="text-xs max-w-sm text-center lg:text-left">
             &#169; Punta Online Solutions 2020
           </p>
-          <div class="flex flex-row space-x-2 mx-auto lg:mx-0 text-center lg:text-left">
+          <div class="hidden flex flex-row space-x-2 mx-auto lg:mx-0 text-center lg:text-left">
             <a class="text-xs">
               Privacy Policy
             </a>
