@@ -78,7 +78,7 @@
                 What's in it for me?
               </h2>
               <p class="tracking-wide font-thin text-center lg:text-left">
-                Here are some opportunties we’ll give to our service providers and ambassadors.
+                Here are some opportunities we’ll give to our service providers and ambassadors.
               </p>
           </div>
           <div class="flex flex-col justify-start">
@@ -88,7 +88,7 @@
               <div class="flex flex-col w-64">
                 <img class="h-16 w-16 mb-4" :src="require('@/assets/svg/third-artifact-1.svg')" />
                 <h3 class="font-semibold text-xl tracking-wide">
-                  Grow Your Business
+                  Grow your business
                 </h3>
                 <p class="font-light text-md text-justify">
                   Gain exposure, earn, and build your portfolio for free!
@@ -97,7 +97,7 @@
               <div class="flex flex-col w-64">
                 <img class="h-16 w-16 mb-4" :src="require('@/assets/svg/third-artifact-2.svg')" />
                 <h3 class="font-semibold text-xl tracking-wide">
-                  Access Our Platform
+                  Access our platform
                 </h3>
                 <p class="font-light text-md text-justify">
                   Sell your services and engage with customers easily.
@@ -106,7 +106,7 @@
               <div class="flex flex-col w-64">
                 <img class="h-16 w-16 mb-4" :src="require('@/assets/svg/third-artifact-3.svg')" />
                 <h3 class="font-semibold text-xl tracking-wide">
-                  A Discount on Us <small>*</small>
+                  A discount from us <small>*</small>
                 </h3>
                 <p class="font-light text-md text-justify">
                   As a thank you from us, you have a 10% discount
