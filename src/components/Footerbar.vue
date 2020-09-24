@@ -1,7 +1,7 @@
 <template>
     <footer>
       <div id="footer-wrapper" class="flex flex-col py-16 container lg:mx-auto max-w-screen-lg">
-        <div class="w-full h-full flex flex-row justify-between flex-wrap">
+        <div class="w-full h-full flex flex-row justify-between flex-wrap items-baseline">
           <div class="justify-center flex flex-row items-baseline px-3 lg:p-0
           md:space-y-0 lg:space-x-3 space-x-0 space-y-3 flex-wrap mx-auto lg:mx-0">
             <a href="https://forms.gle/isVYj2RKhy3LVEQF9" target="_blank"
