@@ -46,7 +46,7 @@
       </div>
       <div id="section-3" class="bg-white flex flex-col py-10 px-5">
         <div class="flex flex-row flex-wrap items-baseline
-        justify-between space-x-10 space-y-3 container mx-auto max-w-screen-lg">
+        justify-between space-y-3 container mx-auto max-w-screen-lg">
           <div class="flex flex-col justify-center max-w-sm">
             <img :src="require('@/assets/svg/second-artifact-first.svg')" />
             <h3 class="text-xl font-bold text-gray-800">
@@ -71,7 +71,7 @@
       </div>
       <div id="section-4" class="bg-punta text-white flex flex-col py-10">
         <div class="container mx-auto max-w-screen-lg">
-          <div class="flex flex-col sm:text-center mx-auto
+          <div class="flex flex-col text-center md:text-left mx-auto
           md:text-left pb-5 container justify-center inline-block">
               <h2 class="text-4xl tracking-wide">
                 What's in it for me?
@@ -82,7 +82,7 @@
           </div>
           <div class="flex flex-col justify-start">
             <div class="flex flex-row flex-wrap sm:items-center md:items-baseline
-              pb-6 space-y-5 md:space-x-5 justify-between">
+              pb-6 space-y-5 md:space-x-5 md:justify-between justify-center py-5">
               <div class="flex flex-col w-64">
                 <img class="h-16 w-16 mb-4" :src="require('@/assets/svg/third-artifact-1.svg')" />
                 <h3 class="font-medium text-xl">
@@ -112,7 +112,7 @@
                 </p>
               </div>
             </div>
-            <div class="flex flex-col text-pink-200 container mx-auto">
+            <div class="flex flex-col text-pink-200 container mx-auto px-4 md:px-0">
               <p class="text-sm text-center md:text-left">
                 * Applicable for the first 50 service providers and first 50 ambassadors only!
               </p>
