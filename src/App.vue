@@ -114,7 +114,7 @@
                 </p>
               </div>
             </div>
-            <div class="flex flex-col text-asterisk container mx-auto px-4 md:px-0 italic mt-5">
+            <div class="flex flex-col text-asterisk font-light container mx-auto px-4 md:px-0 italic mt-5">
               <p class="text-sm text-center md:text-left">
                 * Applicable for the first 50 service providers and first 50 ambassadors only!
               </p>
